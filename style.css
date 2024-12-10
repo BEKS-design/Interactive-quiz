@@ -1,0 +1,96 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-image: url('./galaxy.jpg'), linear-gradient(to bottom, #141e30, #243b55);
+    background-size: cover;
+    background-position: center;
+    background-blend-mode: overlay;
+    color: #fff;
+    margin: 0;
+    padding: 20px;
+}
+
+#quiz-container {
+    max-width: 700px;
+    margin: auto;
+    background: rgba(0, 0, 0, 0.85);
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.6);
+}
+
+h1 {
+    margin-bottom: 20px;
+    font-size: 2.5em;
+    color: #ff9800;
+}
+
+#question {
+    font-size: 1.8em;
+    margin-bottom: 20px;
+}
+
+#answers {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.answer-btn {
+    padding: 12px 25px;
+    background: #009688;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 1.1em;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+.answer-btn:hover {
+    background: #00796b;
+}
+
+#feedback {
+    margin-top: 20px;
+    font-size: 1.4em;
+    font-weight: bold;
+    height: 40px;
+}
+
+#feedback.correct {
+    color: #4caf50;
+}
+
+#feedback.incorrect {
+    color: #f44336;
+}
+
+#score {
+    margin-top: 20px;
+    font-size: 1.3em;
+    font-weight: bold;
+    color: #ff9800;
+}
+
+#timer {
+    margin-top: 15px;
+    font-size: 1.2em;
+    color: #ff5722;
+}
+
+#restart-btn {
+    margin-top: 20px;
+    padding: 12px 25px;
+    font-size: 1.1em;
+    background: #ff5722;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+#restart-btn:hover {
+    background: #e64a19;
+}
